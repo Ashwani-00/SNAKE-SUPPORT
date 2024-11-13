@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav id="menu">
+        <h1>SNAKE</h1>
+        <ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars">
+                </i>
+            </a>
+            <a href="info.html"><li class="lis">Information</li></a>
+            <a href="querry.html"><li class="lis">Feedback/Querry</li></a>
+            <a href="./Term.html"><li class="lis">Terms and Conditions</li></a>
+            <li class="lis">Subscribe us</li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+
+        <img src="images/svg.jpg" alt="svg" height="500px" class="hero-image">
+        <div class="right">
+            <h1>Welcome to Snake<br>Customer Support<span class="yellow">.</span></h1>
+            <h2>Our Team, Your Support</h2>
+
+            
+        </div>
+    </section>
+
+    <section class="about">
+        <h1>Please Enter Your Feedback or Querry</h1>
+        <div class="contact-form" id="contact">
+            <h2>Contact Us</h2>
+            <form action="form.php" method="post"  id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required >
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Feedback/Querry:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    
+
+
+    </section>
+
+
+    <footer>
+        <div class="links">
+        <span class="first">
+            <a href="info.html"><li class="lis">Home</li></a>
+            <li>About our team</li>
+            <li>Careers</li>
+        </span>
+        <span class="second">
+            <a href="info.html"><li>Information</li></a>
+            <a href="querry.html"><li class="lis">Feedback/Querry</li></a>
+            <li>Testimonials</li>
+        </span>
+        <span class="third">
+            <li>Social Media leads</li>
+            <li>Contact us</li>
+            <li>Work with us</li>
+        </span>
+        </div>
+        <p>&copy;copyright snake.com 2019-2024 </p>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
